@@ -13,7 +13,7 @@ As a front end kind of guy it pains me to show something that has such barebones
 * What features would I like to add to the game? Additional features will mean revisiting, refactoring and adding to the Javascript. Changes to html and css will also be needed depending on the feature.
 (I can already think of certain lines of code that could have been handled better, specifically line 47, but opted to leave it in).
 
-* What do I want the app to look like/ How can I make this look better? This means visiting the world of CSS, pondering color schemes, enhancing the UI, thinking about how to make this responsive, etc.
+* What do I want the app to look like/ How can I make this look better? This means visiting the world of CSS, pondering color schemes, enhancing the UI, what clues/instructions should I give the user to make playing more intuitive, how can I make this responsive, etc.
 
 I reckon I will make some updated versions and detail the process, let me know what you think. Feel free to reach out on slack or via contactjacobtay@gmail.com
 
