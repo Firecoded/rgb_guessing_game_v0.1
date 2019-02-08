@@ -4,7 +4,7 @@ I saw something like this and wanted to recreate it as a way to practice basic J
 
 Feel free to download, clone, fork or do whatever you want with this repo. Maybe set out to recreate it without looking at the code. One thing I was told when learning JS for practice is to go through each line of code and add your own comments, then delete all the code and try to rewrite the JS based off your comments. Also, with this project I set out to not use any global variables but if you are new to JS then I wouldn't worry about using a global variable to store the correct RGB value.
 
-If you don't feel like downloading then you can view a demo here https://jsbin.com/roqoyit/edit?output
+If you don't feel like downloading then you can view a demo here - [JSbin Demo](https://jsbin.com/roqoyit/edit?output){:target="_blank" rel="noopener"}
 
 As a front end kind of guy it pains me to show something that has such barebones aesthetics but i decided to keep it in this state to show what your first version of a game/idea will be like. I start with creating just the most basic amount of html and css that then allows me to create the javascript game logic. This is designed to show you what the first version would look like (I even left the guidance borders on that I usually delete later). A common problem new devs make, myself included, is focusing too much on making something look good before it even works, which can make things harder down the road.
 
