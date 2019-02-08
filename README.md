@@ -2,7 +2,7 @@
 
 I saw something like this and wanted to recreate it as a way to practice basic Javascript logic and also as a way to show students who are new to javascript how making small games is a great way to improve HTML, CSS and Javascript skills. I tried to write the JS in a way that could be looked at by people who are relatively new to Javascript so they could dissect the what, why and how. (If you are unfamiliar with recursion then beware the last function on line 66, I couldn't resist adding it).
 
-Feel free to download, clone, fork or do whatever you want with this repo. Maybe set out to recreate it without looking at the code. One thing I was told when learning JS for practice is to go through each line of code and add your own comments, then delete all the code and try to rewrite the JS based off your comments. Also, with this project I set out to not use any global variables but if you are new to JS then I wouldn't worry about using a global variable to store the correct RGB value.
+Feel free to download, clone, fork or do whatever you want with this repo. Maybe set out to recreate it without looking at the code. One thing I was told when learning JS for practice is to go through each line of code and add your own comments, then delete all the code and try to rewrite the JS based off your comments. Also, with this project I set out to not use any global variables but if you are new to JS then I wouldn't worry about using global variables to store important values if that helps you recreate the game.
 
 
 
