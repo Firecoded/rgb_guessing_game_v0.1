@@ -1,0 +1,97 @@
+@font-face {
+    font-family: blocks;
+    src: url(./assets/fonts/baby\ blocks.ttf);
+}
+@font-face {
+    font-family: blocks2;
+    src: url(./assets/fonts/DatBox.ttf);
+}
+@font-face {
+    font-family: blocks3;
+    src: url(./assets/fonts/Sketchtica.ttf)
+}
+body{
+    margin: 0;
+    font-size: 0;
+}
+#app-cont{
+    height: 100vh;
+}
+#app-cont * {
+    box-sizing: border-box;
+}
+.top-cont{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+}
+.game-title-cont{
+    height: 100%;
+}
+.rgb-title {
+    font-size: 40px;
+    text-align: center;
+    font-family: blocks;
+    margin-top: 10px;
+}
+.rgb-title span:nth-child(1){
+    color: red;
+}
+.rgb-title span:nth-child(2){
+    color: green;
+}
+.rgb-title span:nth-child(3){
+    color: blue;
+}
+.game-title-cont div:nth-child(2) {
+    font-size: 50px;
+    text-align: center;
+    font-family: blocks3;
+}
+.bottom-cont{
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.rgb-text-area{
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.question-span{
+    font-size: 24px;
+    font-family: blocks3;
+}
+.correct-rgb{
+    font-size: 24px;
+    font-family: blocks3;
+    font-weight: 600;
+}
+.color-area{
+    height: 70%;
+    width: 80%;
+    border: 1px solid blue;
+}
+.color-box{
+    height: calc(100% / 3);
+    width: calc(100% / 2);
+    display: inline-block;
+    border: 1px solid black;
+    transition-duration: .2s;
+    cursor: pointer;
+}
+.response-text{
+    height: 20%;
+    text-align: center;
+    font-size: 20px;
+}
+
+/** Animations**/
+
+@keyframes color-rotate{
+    from {filter: hue-rotate(0deg);}
+    to {filter: hue-rotate(360deg);}
+}
