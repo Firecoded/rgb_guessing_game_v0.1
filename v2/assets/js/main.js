@@ -21,7 +21,6 @@ function createArrayOfRandomRGBValues(){
 
 function buildBoxesFromArr(rgbArr){
     var colorArea = $('.color-area');
-    colorArea.empty();
     for(var i = 0; i < rgbArr.length; i++){
         var box = $('<div>').addClass('color-box box'+ (i+1))
                             .css('backgroundColor', rgbArr[i])
@@ -70,8 +69,26 @@ function startNewGameCounter(counter){
         startTheGame();
     } else{
         setTimeout(function(){
+            var colorAreaChildren = $('.color-area').children();
+            if(colorAreaChildren.length && counter === 3){
+                removeElementsSlowly(colorAreaChildren)
+            }
             $('.response-text').text(message += "... " + counter);
             startNewGameCounter(--counter);
         }, 1000);
     }   
+}
+
+function removeElementsSlowly(elArr){
+    var counter = 300;
+    for(var i = elArr.length; i > -1; i--){
+        fadeoutThenRemove(elArr[i], counter)
+        counter+=300;
+    }
+}
+
+function fadeoutThenRemove(el, time){
+    $(el).fadeOut(time, function(){
+        el.remove();
+    })
 }
